@@ -1,4 +1,5 @@
 # Single Image Super Resolution using CNN and GAN
+---
 
 ## Overview
 This project implements **Single Image Super Resolution (SISR)**, where a
@@ -17,31 +18,33 @@ understanding and comparing CNN‑based and GAN‑based super‑resolution metho
 
 ## Project Structure
 
+```
 Single-Image-Super-Resolution/
 │
 ├── notebook/
-│ └── sisr_project.ipynb # Main Jupyter notebook (training + results)
+│   └── sisr_project.ipynb
 │
 ├── src/
-│ ├── dataset.py # Dataset handling (LR–HR image pairs)
-│ ├── srcnn_model.py # SRCNN model definition
-│ └── srgan_models.py # SRGAN Generator & Discriminator
+│   ├── dataset.py
+│   ├── srcnn_model.py
+│   └── srgan_models.py
 │
 ├── scripts/
-│ └── inference.py # Optional inference/demo script
+│   └── inference.py
 │
 ├── sample_images/
-│ └── input_lr.png # Example low-resolution input image
+│   └── input_lr.png
 │
 ├── results/
-│ └── comparison.png # LR vs SRCNN vs SRGAN vs HR comparison
+│   └── comparison.png
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 
-```bash
+
 ```
+
 ---
 
 
@@ -107,6 +110,7 @@ pip install -r requirements.txt
 ```bash
 notebook/sisr_project.ipynb
 ```
+---
 
 ## Results
 - The final output compares:
