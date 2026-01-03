@@ -42,6 +42,7 @@ Single-Image-Super-Resolution/
 
 ```bash
 ```
+---
 
 
 ## Models Used
