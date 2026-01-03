@@ -16,6 +16,7 @@ understanding and comparing CNN‑based and GAN‑based super‑resolution metho
 ---
 
 ## Project Structure
+
 Single-Image-Super-Resolution/
 │
 ├── notebook/
@@ -30,7 +31,7 @@ Single-Image-Super-Resolution/
 │ └── inference.py # Optional inference/demo script
 │
 ├── sample_images/
-│ └── input_lr.png # Example low‑resolution input image
+│ └── input_lr.png # Example low-resolution input image
 │
 ├── results/
 │ └── comparison.png # LR vs SRCNN vs SRGAN vs HR comparison
