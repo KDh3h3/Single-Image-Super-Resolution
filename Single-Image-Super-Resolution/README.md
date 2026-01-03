@@ -40,7 +40,9 @@ Single-Image-Super-Resolution/
 ├── requirements.txt
 └── .gitignore
 
----
+```bash
+```
+
 
 ## Models Used
 
